@@ -1,0 +1,48 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/aura.toml"]
+
+[window]
+padding = { x = 10, y = 10 }
+decorations = "buttonless"
+startup_mode = "Windowed"
+opacity = 1.0
+dynamic_title = true
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "Menlo"
+style = "Regular"
+
+[font.bold]
+family = "Menlo"
+style = "Bold"
+
+[font.italic]
+family = "Menlo"
+style = "Italic"
+
+[font.bold_italic]
+family = "Menlo"
+style = "Bold Italic"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 750
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+
+
+[env]
+TERM = "xterm-256color"
+
