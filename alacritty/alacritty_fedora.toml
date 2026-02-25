@@ -1,0 +1,32 @@
+[window]
+option_as_alt = "Both"
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/aura.toml"
+]
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+   { key = "Backspace", mods = "Control|Shift", action = "Quit" }
+]
